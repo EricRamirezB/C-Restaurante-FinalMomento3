@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Api", "Restaura
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Dominio", "Restaurante.Dominio\Restaurante.Dominio.csproj", "{FE6E72D6-823A-4AFB-B4E5-5D9D5DD997EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Xamarin.Android", "..\Restaurante.Xamarin\Restaurante.Xamarin.Android\Restaurante.Xamarin.Android.csproj", "{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurante.Xamarin", "..\Restaurante.Xamarin\Restaurante.Xamarin\Restaurante.Xamarin.csproj", "{BDBEA5BF-65AF-406E-B255-D2971FCCBA01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,16 @@ Global
 		{FE6E72D6-823A-4AFB-B4E5-5D9D5DD997EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6E72D6-823A-4AFB-B4E5-5D9D5DD997EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6E72D6-823A-4AFB-B4E5-5D9D5DD997EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3699B43-DECF-49F2-AABF-7AD09A72ED9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BDBEA5BF-65AF-406E-B255-D2971FCCBA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBEA5BF-65AF-406E-B255-D2971FCCBA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBEA5BF-65AF-406E-B255-D2971FCCBA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBEA5BF-65AF-406E-B255-D2971FCCBA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
