@@ -25,5 +25,8 @@ namespace Restaurante.Dominio
         [Required]
         [MaxLength(50)]
         public string FechaPedidoM { get; set; }
+
+        [Required]
+        public int precio { get; set; }
     }
 }
