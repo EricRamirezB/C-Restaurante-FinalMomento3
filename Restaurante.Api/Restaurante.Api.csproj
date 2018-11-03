@@ -200,6 +200,10 @@
     <Compile Include="Migrations\201811031559487_ModeloInicial.Designer.cs">
       <DependentUpon>201811031559487_ModeloInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811031938349_CambioEstructura.cs" />
+    <Compile Include="Migrations\201811031938349_CambioEstructura.Designer.cs">
+      <DependentUpon>201811031938349_CambioEstructura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RestauranteContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -300,6 +304,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811031559487_ModeloInicial.resx">
       <DependentUpon>201811031559487_ModeloInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811031938349_CambioEstructura.resx">
+      <DependentUpon>201811031938349_CambioEstructura.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
