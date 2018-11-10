@@ -30,6 +30,6 @@ namespace Restaurante.Dominio
         [MaxLength(50)]
         public string HoratioR { get; set; }
 
-        public string Imagen { get; set; }
+        public string ImagenR { get; set; }
     }
 }

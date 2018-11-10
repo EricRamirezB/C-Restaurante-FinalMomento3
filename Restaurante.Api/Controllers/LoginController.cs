@@ -20,13 +20,13 @@ namespace Restaurante.Api.Controllers
             }
         }
 
-        [HttpPost]
-        public bool Post()
-        {
-            using (RestauranteContext context = new RestauranteContext())
-            {
-                return context.Logins.ToList();
-            }
-        }
+        //[HttpPost]
+        //public bool Post()
+        //{
+        //    using (RestauranteContext context = new RestauranteContext())
+        //    {
+        //        return context.Logins.ToList();
+        //    }
+        //}
     }
 }

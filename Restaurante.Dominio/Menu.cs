@@ -29,6 +29,6 @@ namespace Restaurante.Dominio
         [Required]
         public int precio { get; set; }
 
-        public string Imagen { get; set; }
+        public string ImagenM { get; set; }
     }
 }
