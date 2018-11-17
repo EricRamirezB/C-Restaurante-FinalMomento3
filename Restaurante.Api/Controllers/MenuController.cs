@@ -17,6 +17,7 @@ namespace Restaurante.Api.Controllers
         {
             using (RestauranteContext context = new RestauranteContext())
             {
+
                 return context.Menus.ToList();
             }
         }

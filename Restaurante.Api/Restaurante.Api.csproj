@@ -204,6 +204,14 @@
     <Compile Include="Migrations\201811031938349_CambioEstructura.Designer.cs">
       <DependentUpon>201811031938349_CambioEstructura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811160220078_CambioImagen.cs" />
+    <Compile Include="Migrations\201811160220078_CambioImagen.Designer.cs">
+      <DependentUpon>201811160220078_CambioImagen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811170505303_CorreccionNombre.cs" />
+    <Compile Include="Migrations\201811170505303_CorreccionNombre.Designer.cs">
+      <DependentUpon>201811170505303_CorreccionNombre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RestauranteContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -214,6 +222,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\1.png" />
+    <Content Include="Content\Images\Ajiaco.png" />
+    <Content Include="Content\Images\BandejaPaisa.png" />
+    <Content Include="Content\Images\Bonafide.png" />
+    <Content Include="Content\Images\GordoMagro.png" />
+    <Content Include="Content\Images\MogiMirim.png" />
+    <Content Include="Content\Images\Pescado.png" />
+    <Content Include="Content\Images\PicadaCarnes.png" />
+    <Content Include="Content\Images\Porkys.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -307,6 +324,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811031938349_CambioEstructura.resx">
       <DependentUpon>201811031938349_CambioEstructura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811160220078_CambioImagen.resx">
+      <DependentUpon>201811160220078_CambioImagen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811170505303_CorreccionNombre.resx">
+      <DependentUpon>201811170505303_CorreccionNombre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

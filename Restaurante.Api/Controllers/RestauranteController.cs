@@ -16,7 +16,9 @@ namespace Restaurante.Api.Controllers
         {
             using (RestauranteContext context = new RestauranteContext())
             {
-                return context.Restaurantes.ToList();
+                var listado = context.Restaurantes.ToList();
+                listado.ForEach(x => x.ImagenR = "http://localhost/Finalmomento3" + x.ImagenR);
+                return listado;
             }
 
         }
